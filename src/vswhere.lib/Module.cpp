@@ -49,7 +49,7 @@ const wstring& Module::get_FileVersion() noexcept
         return m_fileVersion;
     }
 
-    vector<byte> buffer(cbVersionInfo);
+    vector<BYTE> buffer(cbVersionInfo);
     if (!::GetFileVersionInfoW(path.c_str(), dwHandle, buffer.size(), buffer.data()))
     {
         return m_fileVersion;

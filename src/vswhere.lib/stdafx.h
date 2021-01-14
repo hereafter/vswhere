@@ -4,7 +4,7 @@
 // </copyright>
 
 #pragma once
-
+#define _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING
 #include "targetver.h"
 
 #define WIN32_LEAN_AND_MEAN
@@ -76,3 +76,5 @@ _COM_SMARTPTR_TYPEDEF(ISetupInstanceCatalog, __uuidof(ISetupInstanceCatalog));
 #include "VersionRange.h"
 #include "XmlScope.h"
 #include "XmlFormatter.h"
+
+

@@ -6,7 +6,7 @@
 #include "stdafx.h"
 
 using namespace std;
-using namespace std::experimental::filesystem;
+using namespace std::filesystem;
 
 
 Glob::Glob(_In_ const wstring& root, _In_ const wstring& pattern) :
